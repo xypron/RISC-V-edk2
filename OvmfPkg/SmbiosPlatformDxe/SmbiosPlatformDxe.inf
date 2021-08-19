@@ -34,6 +34,9 @@
 [Sources.ARM, Sources.AARCH64]
   ArmXen.c
 
+[Sources.ARM, Sources.RISCV64]
+  RiscvXen.c
+
 [Packages]
   MdePkg/MdePkg.dec
   MdeModulePkg/MdeModulePkg.dec
